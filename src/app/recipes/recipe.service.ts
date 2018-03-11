@@ -27,8 +27,8 @@ export class RecipeService {
     
   }
 
-  getRecipe(id:number): Recipe {
-    return this.recipes.slice()[+id];
+  getRecipe(index:number): Recipe {
+    return this.recipes[+index];
   }
 
   // return a COPY of our recipe array
